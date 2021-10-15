@@ -1,0 +1,104 @@
+@font-face {
+    font-family: Upheaval;
+    src: url(fonts/upheavtt.ttf);
+}
+
+html, body
+{
+    margin: 0px;
+    height: 100%;
+}
+
+header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 100px;
+    width: auto;
+
+    background-image: linear-gradient(
+        to bottom,
+        #4d4d4d,
+        #1a1a1a
+    );
+}
+
+#logo
+{
+    font-size: 50px;
+}
+
+#row1 {margin-left: 10px;}
+#row2 {margin-right: 10px;}
+
+#row1 img:hover, #row2 img:hover
+{
+    background-image: linear-gradient(
+        to bottom,
+        #6d6d6d,
+        #1a1a1a
+    );
+    border-radius: 10px;
+}
+
+header img
+{
+    height: 80px;
+    width: auto;
+}
+
+h1
+{
+    font-family: Upheaval;
+    font-size: 30px;
+    color: white;
+    letter-spacing: 3px;
+}
+
+main
+{
+    height: 100%;
+    background-color: #1a1a1a;
+}
+
+.paragraphe
+{
+    width: 45vw;
+    height: 35vh;
+
+    border-left: 10px solid #660066;
+    background-image: linear-gradient(
+        to right,
+        #b300b3,
+        rgba(255,255,255,0)
+    );
+
+    padding-left: 20px;
+}
+
+#intro
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+p
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+    color: snow;
+}
+
+footer
+{
+    height: 15vh;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    background-color: #6d6d6d;
+}
